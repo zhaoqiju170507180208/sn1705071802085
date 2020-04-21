@@ -9,5 +9,6 @@ public class Ch10Activity1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_ch10_1);
+
     }
 }
