@@ -1,6 +1,7 @@
 package cn.edu.sdwu.android02.classroom.sn170507180208;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.InputType;
@@ -32,5 +33,11 @@ public class Ch10Activity2 extends AppCompatActivity {
         intent.putExtra("text",editText.getText().toString());//设置传递的数据
         startActivity(intent);
     }
+    public void startSubActivity(View view){
+        //1.以sub activity的方式启动子activity
+        Intent intent=new Intent(this,Ch10Activity3.class);
+        startActivityForResult(intent,101);
+    }
+
 
 }

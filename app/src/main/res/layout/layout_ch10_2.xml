@@ -13,8 +13,18 @@
         android:onClick="ch10Activity"
         android:layout_height="wrap_content" />
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:text="send_broadcast"
         android:onClick="send_broadcast"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="start_sub_activity"
+        android:onClick="startSubActivity"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="web"
+        android:onClick="web"
+        android:layout_height="wrap_content" />
 </LinearLayout>
