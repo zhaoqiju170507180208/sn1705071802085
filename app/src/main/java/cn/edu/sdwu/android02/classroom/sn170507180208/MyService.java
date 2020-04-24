@@ -28,6 +28,9 @@ public class MyService extends Service {
 
     @Override
     public void onDestroy() {
+        mediaPlayer.stop();
+        mediaPlayer.release();
+        Log.i(MyService.class.toString(),"onDestroy");
         super.onDestroy();
     }
 

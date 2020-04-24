@@ -46,7 +46,6 @@ public class Ch12Activity1 extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-
         //解绑
         unbindService(serviceConnection);
     }
